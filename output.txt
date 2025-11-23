@@ -45,38 +45,38 @@ Search terms (after filtering): ['security']
 ✓ Found 8 matching document(s)
 ============================================================
 
-1. cybersecurity_fundamentals.html
-   Relevance Score (TF-IDF): 0.000000
-   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
-   Links: 2 outgoing hyperlink(s)
-
-2. ethical_hacking.html
+1. ethical_hacking.html
    Relevance Score (TF-IDF): 0.000000
    URL: https://www.purdueglobal.edu/blog/information-technology/ethical-hacker/
+
+2. cloud_security.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
 
 3. network_security.html
    Relevance Score (TF-IDF): 0.000000
    URL: https://www.malwarebytes.com/cybersecurity
    Links: 2 outgoing hyperlink(s)
 
-4. incident_response.html
+4. malware_analysis.html
    Relevance Score (TF-IDF): 0.000000
-   URL: https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
 
 5. index.html
    Relevance Score (TF-IDF): 0.000000
    URL: https://cybersecurity-hub.example.com/
    Links: 7 outgoing hyperlink(s)
 
-6. cloud_security.html
+6. cybersecurity_fundamentals.html
    Relevance Score (TF-IDF): 0.000000
-   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
    Links: 2 outgoing hyperlink(s)
 
-7. malware_analysis.html
+7. incident_response.html
    Relevance Score (TF-IDF): 0.000000
-   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
-   Links: 2 outgoing hyperlink(s)
+   URL: https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
 
 8. cryptography.html
    Relevance Score (TF-IDF): 0.000000

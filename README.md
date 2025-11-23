@@ -284,7 +284,6 @@ The output demonstrates:
 The `webpages/input.txt` file maps filenames to URLs:
 
 ```
-// Comment lines start with '//'
 filename URL
 
 // Example:
@@ -297,8 +296,6 @@ malware_analysis.html https://www.coursera.org/articles/cybersecurity-analyst-sk
 incident_response.html https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
 ethical_hacking.html https://www.purdueglobal.edu/blog/information-technology/ethical-hacker/
 ```
-
-This file is optional. If not present, URLs will be shown as "URL not available".
 
 ---
 
@@ -424,4 +421,4 @@ The use of well-established data structures (sets, dictionaries, counters) from 
 
 ---
 
-**For questions or issues, please contact: Ankit Dhandharia**
+**For questions or issues, please contact: ankitdhandahria21@gmail.com**
