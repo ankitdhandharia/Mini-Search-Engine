@@ -1,0 +1,8 @@
+index.html https://cybersecurity-hub.example.com/
+cybersecurity_fundamentals.html https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+cloud_security.html https://www.coursera.org/articles/cybersecurity-analyst-skills
+cryptography.html https://cybersecurity-hub.example.com/cryptography
+network_security.html https://www.malwarebytes.com/cybersecurity
+malware_analysis.html https://www.coursera.org/articles/cybersecurity-analyst-skills
+incident_response.html https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
+ethical_hacking.html https://www.purdueglobal.edu/blog/information-technology/ethical-hacker/

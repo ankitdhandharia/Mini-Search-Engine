@@ -1,0 +1,445 @@
+============================================================
+SEARCH ENGINE - TEST OUTPUT
+============================================================
+Total Documents Indexed: 8
+Vocabulary Size: 1076 unique terms
+============================================================
+
+
+============================================================
+Running Automated Test Suite
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 1: Query = ''
+────────────────────────────────────────────────────────────
+⚠ Empty query. Please enter some search terms.
+
+No results to display.
+
+────────────────────────────────────────────────────────────
+TEST CASE 2: Query = 'the and is are'
+────────────────────────────────────────────────────────────
+⚠ Query contains only stopwords. Please use more specific terms.
+
+No results to display.
+
+────────────────────────────────────────────────────────────
+TEST CASE 3: Query = 'xyzabc123notfound'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['xyzabc123notfound']
+  'xyzabc123notfound' → NOT FOUND in any document
+
+No results to display.
+
+────────────────────────────────────────────────────────────
+TEST CASE 4: Query = 'security'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['security']
+  'security' → found in 8 documents
+
+============================================================
+✓ Found 8 matching document(s)
+============================================================
+
+1. cybersecurity_fundamentals.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+   Links: 2 outgoing hyperlink(s)
+
+2. ethical_hacking.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://www.purdueglobal.edu/blog/information-technology/ethical-hacker/
+
+3. network_security.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+4. incident_response.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
+
+5. index.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+6. cloud_security.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+7. malware_analysis.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+8. cryptography.html
+   Relevance Score (TF-IDF): 0.000000
+   URL: https://cybersecurity-hub.example.com/cryptography
+   Links: 4 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 5: Query = 'encryption'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['encryption']
+  'encryption' → found in 6 documents
+
+============================================================
+✓ Found 6 matching document(s)
+============================================================
+
+1. cryptography.html
+   Relevance Score (TF-IDF): 0.012373
+   URL: https://cybersecurity-hub.example.com/cryptography
+   Links: 4 outgoing hyperlink(s)
+
+2. cloud_security.html
+   Relevance Score (TF-IDF): 0.002569
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+3. index.html
+   Relevance Score (TF-IDF): 0.002230
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+4. network_security.html
+   Relevance Score (TF-IDF): 0.001254
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+5. malware_analysis.html
+   Relevance Score (TF-IDF): 0.001098
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+6. cybersecurity_fundamentals.html
+   Relevance Score (TF-IDF): 0.000769
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+   Links: 2 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 6: Query = 'malware'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['malware']
+  'malware' → found in 5 documents
+
+============================================================
+✓ Found 5 matching document(s)
+============================================================
+
+1. malware_analysis.html
+   Relevance Score (TF-IDF): 0.024218
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+2. index.html
+   Relevance Score (TF-IDF): 0.003643
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+3. incident_response.html
+   Relevance Score (TF-IDF): 0.003197
+   URL: https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
+
+4. network_security.html
+   Relevance Score (TF-IDF): 0.002048
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+5. cybersecurity_fundamentals.html
+   Relevance Score (TF-IDF): 0.001257
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+   Links: 2 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 7: Query = 'cloud'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['cloud']
+  'cloud' → found in 4 documents
+
+============================================================
+✓ Found 4 matching document(s)
+============================================================
+
+1. cloud_security.html
+   Relevance Score (TF-IDF): 0.041774
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+2. index.html
+   Relevance Score (TF-IDF): 0.016120
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+3. cryptography.html
+   Relevance Score (TF-IDF): 0.002981
+   URL: https://cybersecurity-hub.example.com/cryptography
+   Links: 4 outgoing hyperlink(s)
+
+4. network_security.html
+   Relevance Score (TF-IDF): 0.001510
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 8: Query = 'cloud security'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['cloud', 'security']
+  'cloud' → found in 4 documents
+  'security' → found in 8 documents
+
+============================================================
+✓ Found 4 matching document(s)
+============================================================
+
+1. cloud_security.html
+   Relevance Score (TF-IDF): 0.041774
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+2. index.html
+   Relevance Score (TF-IDF): 0.016120
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+3. cryptography.html
+   Relevance Score (TF-IDF): 0.002981
+   URL: https://cybersecurity-hub.example.com/cryptography
+   Links: 4 outgoing hyperlink(s)
+
+4. network_security.html
+   Relevance Score (TF-IDF): 0.001510
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 9: Query = 'network attack'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['network', 'attack']
+  'network' → found in 7 documents
+  'attack' → NOT FOUND in any document
+
+No results to display.
+
+────────────────────────────────────────────────────────────
+TEST CASE 10: Query = 'encryption cryptography'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['encryption', 'cryptography']
+  'encryption' → found in 6 documents
+  'cryptography' → found in 4 documents
+
+============================================================
+✓ Found 4 matching document(s)
+============================================================
+
+1. cryptography.html
+   Relevance Score (TF-IDF): 0.027280
+   URL: https://cybersecurity-hub.example.com/cryptography
+   Links: 4 outgoing hyperlink(s)
+
+2. index.html
+   Relevance Score (TF-IDF): 0.007603
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+3. cloud_security.html
+   Relevance Score (TF-IDF): 0.004116
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+4. malware_analysis.html
+   Relevance Score (TF-IDF): 0.002421
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 11: Query = 'malware detection'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['malware', 'detection']
+  'malware' → found in 5 documents
+  'detection' → found in 5 documents
+
+============================================================
+✓ Found 5 matching document(s)
+============================================================
+
+1. malware_analysis.html
+   Relevance Score (TF-IDF): 0.026909
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+2. incident_response.html
+   Relevance Score (TF-IDF): 0.009592
+   URL: https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
+
+3. index.html
+   Relevance Score (TF-IDF): 0.007287
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+4. network_security.html
+   Relevance Score (TF-IDF): 0.004096
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+5. cybersecurity_fundamentals.html
+   Relevance Score (TF-IDF): 0.002513
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+   Links: 2 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 12: Query = 'incident response'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['incident', 'response']
+  'incident' → found in 5 documents
+  'response' → found in 5 documents
+
+============================================================
+✓ Found 5 matching document(s)
+============================================================
+
+1. incident_response.html
+   Relevance Score (TF-IDF): 0.073538
+   URL: https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
+
+2. index.html
+   Relevance Score (TF-IDF): 0.010930
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+3. cybersecurity_fundamentals.html
+   Relevance Score (TF-IDF): 0.010054
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+   Links: 2 outgoing hyperlink(s)
+
+4. network_security.html
+   Relevance Score (TF-IDF): 0.004096
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+5. malware_analysis.html
+   Relevance Score (TF-IDF): 0.002691
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 13: Query = 'security threats protection'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['security', 'threats', 'protection']
+  'security' → found in 8 documents
+  'threats' → found in 7 documents
+  'protection' → found in 5 documents
+
+============================================================
+✓ Found 5 matching document(s)
+============================================================
+
+1. cloud_security.html
+   Relevance Score (TF-IDF): 0.005544
+   URL: https://www.coursera.org/articles/cybersecurity-analyst-skills
+   Links: 2 outgoing hyperlink(s)
+
+2. index.html
+   Relevance Score (TF-IDF): 0.004679
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+3. cybersecurity_fundamentals.html
+   Relevance Score (TF-IDF): 0.002870
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+   Links: 2 outgoing hyperlink(s)
+
+4. network_security.html
+   Relevance Score (TF-IDF): 0.002479
+   URL: https://www.malwarebytes.com/cybersecurity
+   Links: 2 outgoing hyperlink(s)
+
+5. cryptography.html
+   Relevance Score (TF-IDF): 0.002309
+   URL: https://cybersecurity-hub.example.com/cryptography
+   Links: 4 outgoing hyperlink(s)
+
+============================================================
+
+
+────────────────────────────────────────────────────────────
+TEST CASE 14: Query = 'firewall intrusion detection'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['firewall', 'intrusion', 'detection']
+  'firewall' → NOT FOUND in any document
+
+No results to display.
+
+────────────────────────────────────────────────────────────
+TEST CASE 15: Query = 'cybersecurity best practices'
+────────────────────────────────────────────────────────────
+
+Search terms (after filtering): ['cybersecurity', 'best', 'practices']
+  'cybersecurity' → found in 4 documents
+  'best' → found in 6 documents
+  'practices' → found in 6 documents
+
+============================================================
+✓ Found 3 matching document(s)
+============================================================
+
+1. index.html
+   Relevance Score (TF-IDF): 0.052819
+   URL: https://cybersecurity-hub.example.com/
+   Links: 7 outgoing hyperlink(s)
+
+2. cybersecurity_fundamentals.html
+   Relevance Score (TF-IDF): 0.016050
+   URL: https://www.securitymagazine.com/articles/101473-the-fundamentals-of-cybersecurity-in-the-age-of-ai
+   Links: 2 outgoing hyperlink(s)
+
+3. incident_response.html
+   Relevance Score (TF-IDF): 0.013345
+   URL: https://www.linkedin.com/pulse/fundamentals-cybersecurity-comprehensive-guide-beginners-mytectra-l8eoc/
+
+============================================================
+
+
+============================================================
+END OF TEST OUTPUT
+============================================================

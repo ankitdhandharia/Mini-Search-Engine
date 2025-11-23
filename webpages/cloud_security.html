@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Security</title>
+</head>
+
+<body>
+    <h1>Cloud Security</h1>
+
+    <p><a href="index.html">Back to Home</a></p>
+
+    <h2>Introduction to Cloud Security</h2>
+    <p>Cloud security refers to the set of policies, controls, procedures, and technologies that work together to
+        protect cloud-based systems, data, and infrastructure. As organizations increasingly migrate to cloud platforms,
+        securing cloud environments has become critical.</p>
+
+    <h2>Cloud Service Models</h2>
+
+    <h3>Infrastructure as a Service (IaaS)</h3>
+    <p>Provides virtualized computing resources over the internet. Customers are responsible for managing applications,
+        data, runtime, and middleware, while the provider manages virtualization, servers, storage, and networking.</p>
+    <ul>
+        <li>Examples: AWS EC2, Google Compute Engine, Azure Virtual Machines</li>
+        <li>Security responsibilities are shared between provider and customer</li>
+    </ul>
+
+    <h3>Platform as a Service (PaaS)</h3>
+    <p>Provides a platform allowing customers to develop, run, and manage applications without dealing with
+        infrastructure complexity.</p>
+    <ul>
+        <li>Examples: Google App Engine, Azure App Service, Heroku</li>
+        <li>Provider manages more of the stack, reducing customer security burden</li>
+    </ul>
+
+    <h3>Software as a Service (SaaS)</h3>
+    <p>Delivers software applications over the internet on a subscription basis. The provider manages everything.</p>
+    <ul>
+        <li>Examples: Gmail, Salesforce, Microsoft 365</li>
+        <li>Least customer responsibility for infrastructure security</li>
+    </ul>
+
+    <h2>Shared Responsibility Model</h2>
+    <p>Cloud security operates on a shared responsibility model where security obligations are divided between the cloud
+        service provider and the customer:</p>
+    <ul>
+        <li><strong>Provider Responsibilities</strong>: Physical security, infrastructure security, network security
+        </li>
+        <li><strong>Customer Responsibilities</strong>: Data security, access management, application security, identity
+            management</li>
+        <li>Responsibilities vary depending on the service model (IaaS vs PaaS vs SaaS)</li>
+    </ul>
+
+    <h2>Key Cloud Security Challenges</h2>
+    <ol>
+        <li><strong>Data Breaches</strong> - Unauthorized access to sensitive information</li>
+        <li><strong>Misconfiguration</strong> - Improperly configured cloud security settings</li>
+        <li><strong>Lack of Visibility</strong> - Difficulty monitoring distributed resources</li>
+        <li><strong>Compliance</strong> - Meeting regulatory requirements in cloud environments</li>
+        <li><strong>Account Hijacking</strong> - Unauthorized access to cloud accounts</li>
+        <li><strong>Insider Threats</strong> - Malicious or negligent employees</li>
+        <li><strong>API Vulnerabilities</strong> - Insecure interfaces and APIs</li>
+    </ol>
+
+    <h2>Cloud Security Best Practices</h2>
+
+    <h3>Identity and Access Management (IAM)</h3>
+    <ul>
+        <li>Implement least privilege access</li>
+        <li>Use multi-factor authentication (MFA)</li>
+        <li>Regularly review and audit access permissions</li>
+        <li>Implement role-based access control (RBAC)</li>
+    </ul>
+
+    <h3>Data Encryption</h3>
+    <ul>
+        <li>Encrypt data at rest using strong encryption algorithms</li>
+        <li>Encrypt data in transit using TLS/SSL</li>
+        <li>Manage encryption keys securely</li>
+        <li>Consider using cloud provider's encryption services</li>
+    </ul>
+
+    <h3>Network Security</h3>
+    <ul>
+        <li>Use Virtual Private Clouds (VPCs) for network isolation</li>
+        <li>Implement security groups and network ACLs</li>
+        <li>Use Web Application Firewalls (WAF)</li>
+        <li>Enable DDoS protection</li>
+    </ul>
+
+    <h3>Monitoring and Logging</h3>
+    <ul>
+        <li>Enable comprehensive logging for all cloud resources</li>
+        <li>Implement real-time monitoring and alerting</li>
+        <li>Use Security Information and Event Management (SIEM) tools</li>
+        <li>Regularly review logs for suspicious activity</li>
+    </ul>
+
+    <h2>Cloud Security Tools and Services</h2>
+    <ul>
+        <li><strong>Cloud Access Security Brokers (CASB)</strong> - Policy enforcement between users and cloud services
+        </li>
+        <li><strong>Cloud Workload Protection Platforms (CWPP)</strong> - Protect workloads across different cloud
+            environments</li>
+        <li><strong>Cloud Security Posture Management (CSPM)</strong> - Identify and remediate misconfigurations</li>
+        <li><strong>Cloud Infrastructure Entitlement Management (CIEM)</strong> - Manage cloud permissions and
+            entitlements</li>
+    </ul>
+
+    <h2>Compliance and Governance</h2>
+    <p>Organizations must ensure cloud deployments comply with relevant regulations:</p>
+    <ul>
+        <li>GDPR - European data protection regulation</li>
+        <li>HIPAA - Healthcare data protection in the US</li>
+        <li>PCI DSS - Payment card security standards</li>
+        <li>SOC 2 - Security and availability controls</li>
+        <li>ISO 27001 - Information security management</li>
+    </ul>
+
+    <h2>Disaster Recovery and Business Continuity</h2>
+    <ul>
+        <li>Implement regular automated backups</li>
+        <li>Use multi-region deployment for high availability</li>
+        <li>Test disaster recovery procedures regularly</li>
+        <li>Document recovery time objectives (RTO) and recovery point objectives (RPO)</li>
+    </ul>
+
+    <h2>Container and Serverless Security</h2>
+    <p>Modern cloud architectures require specialized security approaches:</p>
+    <ul>
+        <li>Scan container images for vulnerabilities</li>
+        <li>Implement runtime protection for containers</li>
+        <li>Secure serverless function code and dependencies</li>
+        <li>Monitor and log serverless executions</li>
+    </ul>
+
+    <p><a href="index.html">Return to Home</a> | <a href="cryptography.html">Learn About Cryptography</a></p>
+</body>
+
+</html>

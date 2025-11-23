@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography</title>
+</head>
+
+<body>
+    <h1>Cryptography</h1>
+
+    <p><a href="index.html">Back to Home</a></p>
+
+    <h2>Introduction</h2>
+    <p>Cryptography is the science of securing information through mathematical techniques that transform readable data
+        into unintelligible ciphertext. Modern cryptography forms the backbone of digital security, protecting
+        everything from online banking to secure communications.</p>
+
+    <h2>Symmetric Encryption</h2>
+    <p>Symmetric encryption uses the same key for both encryption and decryption. Advanced Encryption Standard (AES)
+        represents the most widely used symmetric algorithm, providing strong security for <a
+            href="cloud_security.html">cloud</a> and local data protection. The main challenge with symmetric encryption
+        is securely distributing the shared key between parties.</p>
+
+    <h3>Common Symmetric Algorithms</h3>
+    <ul>
+        <li>AES (Advanced Encryption Standard) - Industry standard for data encryption</li>
+        <li>DES (Data Encryption Standard) - Older algorithm, now considered insecure</li>
+        <li>3DES (Triple DES) - Enhanced version of DES, still used in legacy systems</li>
+        <li>ChaCha20 - Modern stream cipher, efficient for mobile devices</li>
+    </ul>
+
+    <h2>Asymmetric Encryption</h2>
+    <p>Asymmetric encryption uses paired public and private keys. The public key encrypts data while the private key
+        decrypts it. RSA and Elliptic Curve Cryptography (ECC) are prominent asymmetric algorithms. This approach solves
+        the key distribution problem inherent in symmetric encryption.</p>
+
+    <h3>Public Key Infrastructure (PKI)</h3>
+    <p>PKI manages digital certificates and public keys, enabling secure communications over insecure networks.
+        Certificate authorities (CAs) verify identities and issue digital certificates. PKI underpins HTTPS, email
+        encryption, and code signing.</p>
+
+    <h2>Hash Functions</h2>
+    <p>Cryptographic hash functions transform input data into fixed-size output values called hashes. Hash functions are
+        one-way, meaning you cannot reverse the process to retrieve the original data. They ensure data integrity and
+        authenticate messages.</p>
+
+    <h3>Hash Applications</h3>
+    <ul>
+        <li>Password storage - Hash passwords instead of storing plaintext</li>
+        <li>Digital signatures - Verify authenticity and integrity of messages</li>
+        <li>Blockchain - Secure distributed ledger technology</li>
+        <li>File integrity checking - Detect unauthorized modifications</li>
+    </ul>
+
+    <h2>Digital Signatures</h2>
+    <p>Digital signatures use asymmetric cryptography to verify authenticity and integrity. The sender signs a message
+        with their private key, and recipients verify the signature using the sender's public key. Digital signatures
+        provide non-repudiation, proving that the sender actually sent the message.</p>
+
+    <h2>Encryption Protocols</h2>
+
+    <h3>TLS/SSL</h3>
+    <p>Transport Layer Security (TLS) and its predecessor SSL encrypt network communications. TLS protects web traffic
+        (HTTPS), email, and other internet applications. Understanding TLS is essential for <a
+            href="network_security.html">network security</a> and secure web development.</p>
+
+    <h3>VPN Encryption</h3>
+    <p>Virtual Private Networks (VPNs) use encryption to create secure tunnels over public networks. IPsec and OpenVPN
+        are common VPN protocols that protect data in transit, enabling secure remote access to corporate networks.</p>
+
+    <h2>Cryptanalysis and Attacks</h2>
+    <p>Cryptanalysis attempts to break encryption systems and recover plaintext without the key. Common attacks include
+        brute force, dictionary attacks, and side-channel attacks. Strong encryption algorithms and proper
+        implementation resist cryptanalytic attacks.</p>
+
+    <p>Attackers may also target implementation weaknesses rather than the algorithms themselves. Poor key management,
+        weak random number generation, and timing vulnerabilities can compromise otherwise secure cryptographic systems.
+        <a href="ethical_hacking.html">Security testing</a> helps identify such weaknesses.</p>
+
+    <h2>Quantum Cryptography</h2>
+    <p>Quantum computers pose a threat to current encryption algorithms, particularly RSA and ECC. Post-quantum
+        cryptography develops algorithms resistant to quantum attacks. Organizations should prepare for the transition
+        to quantum-resistant encryption.</p>
+
+    <h2>Best Practices</h2>
+    <ul>
+        <li>Use industry-standard algorithms (AES, RSA, SHA-256)</li>
+        <li>Never implement custom cryptographic algorithms</li>
+        <li>Generate strong random keys using cryptographically secure generators</li>
+        <li>Protect private keys and implement secure key management</li>
+        <li>Encrypt data at rest and in transit, especially in <a href="cloud_security.html">cloud environments</a></li>
+        <li>Regularly update cryptographic libraries and protocols</li>
+        <li>Prepare for post-quantum cryptography migration</li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>Cryptography provides the mathematical foundation for modern information security. Understanding encryption,
+        hashing, and digital signatures is essential for implementing secure systems. As technology evolves,
+        cryptographic practices must adapt to maintain robust protection against emerging threats.</p>
+
+    <p><a href="index.html">Return to Home</a> | <a href="network_security.html">Explore Network Security</a></p>
+</body>
+
+</html>
